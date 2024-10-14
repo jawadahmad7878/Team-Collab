@@ -29,7 +29,7 @@ The Team Collaboration App is a web-based application designed to facilitate com
 
 1. Clone the repository:
   
-   git clone https://github.com/jawadahmad7878/Team-Proj.git
+   git clone https://github.com/jawadahmad7878/Team-Collab.git
 
    Navigate into the project directory: cd repository
 
