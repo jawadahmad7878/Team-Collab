@@ -1,0 +1,100 @@
+/* General reset for margin, padding, box-sizing, and text-decoration */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+/* Body styling for both login and signup pages */
+body{
+    font-family: 'Raleway', sans-serif;
+    background: #000;
+}
+
+/* Background image and layout for both pages */
+.background{
+    background: url(background.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+}
+
+/* Text box styles */
+.text, .box{
+    flex: 1;
+}
+
+.text{
+    margin-left: 10%;
+    font-weight: 300;
+}
+
+.box{
+    margin-left: 25%;
+}
+
+/* Header and paragraph styles for both forms */
+.text h1{
+    font-size: 70px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.text p{
+    font-size: 20px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.text p a{
+    color: #fff;
+    font-weight: 700;
+}
+
+/* Form styling for both login and signup */
+.form{
+    background: transparent;
+    color: #fff;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+}
+
+input{
+    margin: 20px 0;
+    padding: 10px;
+    background: transparent;
+    border: none;
+    outline: none;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+}
+
+/* Username, password, fullname, and email fields */
+.username, .password, .fullname, .email{
+    border-bottom: 1px solid #fff;
+}
+
+/* Button styling */
+.button{
+    background: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 18px;
+}
+
+.button:hover{
+    background: #fff;
+    color: #000;
+}
+
+/* Specific styling adjustments if needed */
+.login-box {
+    margin-top: 45vh;
+}
+
+.signup-box {
+    margin-top: 33vh;
+}
